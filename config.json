@@ -1,0 +1,23 @@
+{
+  "devices": [
+    {
+      "id": "temp_sensor_001",
+      "type": "temperature",
+      "stream": "temp_stream"
+    },
+    {
+      "id": "humidity_sensor_001",
+      "type": "humidity",
+      "stream": "humidity_stream"
+    },
+    {
+      "id": "energy_sensor_001",
+      "type": "energy",
+      "stream": "energy_stream"
+    }
+  ],
+  "interval": 1,
+  "aws": {
+    "region": "ap-south-1"
+  }
+}
