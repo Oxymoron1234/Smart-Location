@@ -3,7 +3,7 @@
 
 
 ## Systems Architecture Overview
-![Architecture](Location.png)
+![Architecture](assets/Location.png)
 
 Before we switch gears into the implementation of this project, let’s first take a closer look at the architecture behind the data pipelines we’re going to build. At the core of our setup, AWS Glue will connect with AWS Kinesis Streams as the source of truth for the data acting as a pipeline for real-time streaming data.
 
@@ -75,7 +75,7 @@ Here is a high-level step-by-step guide to setting up an AWS-based pipeline for 
    - **Target**: Define the S3 output location (e.g., `s3://location-datastream-data-bucket/`).
    - Set up the Glue job to **run continuously**, or schedule it for periodic execution.
 
-![S3 Bucket Structure](S3.png)
+![S3 Bucket Structure](assets/S3.png)
 
 3. **Set up IAM Permissions**:
    - Ensure that the Glue job has the necessary IAM roles/permissions to read from Kinesis and write to S3.
