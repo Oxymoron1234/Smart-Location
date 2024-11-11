@@ -3,7 +3,7 @@
 
 
 ## Systems Architecture Overview
-![Architecture](Location.png)
+![assets/Location.png](assets/Location.png)
 
 Before we switch gears into the implementation of this project, let’s first take a closer look at the architecture behind the data pipelines we’re going to build. At the core of our setup, AWS Glue will connect with AWS Kinesis Streams as the source of truth for the data acting as a pipeline for real-time streaming data.
 
